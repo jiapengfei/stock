@@ -1,0 +1,9 @@
+.header-filtered {
+  color: blue;
+}
+.cell-red {
+  background-color: #ff1717 !important
+}
+.cell-green {
+  background-color: #53c156 !important
+}
