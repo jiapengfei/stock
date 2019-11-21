@@ -180,7 +180,7 @@ angular.module('stockApp').component('finaIndicator', {
 
         $http({
             method: 'GET',
-            url: '/data/indicator.json'
+            url: 'data/indicator.json'
         }).then(function success(res) {
                 //console.log(res);
                 $.each(res.data, function(i, row){
